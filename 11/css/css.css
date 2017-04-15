@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(http://img1.3lian.com/2015/a1/136/d/188.jpg) repeat scroll top left;
+	padding: 0;
+	margin: 0;	
+}
+#A{
+	max-width: 1200px;
+	min-width: 800px;
+	margin: auto;
+	}
+header{
+	margin: 2px 0;
+	height: 200px;
+	}
+footer{	
+	margin: 2px 0;
+	height: 200px;
+}
+em{
+	font-size: 30px;
+}
+p{
+	text-indent: 2em;
+}
+h1{
+	text-align: center;
+}
+h1:link,viaited {
+  	text-decoration: none;
+  	color: #f3c;
+ }
+h1:hover {
+    color: #f00;
+}
+h1:active {
+  color: #000;
+}
+h2:link,viaited {
+  	text-decoration: none;
+  	color: #f3c;
+ }
+h2:hover {
+    color: #f00;
+}
+h2:active {
+  color: #000;
+}
+a:link{
+    text-decoration: none;
+  	color: #f3c;
+}
+a:hover {
+    color: #f00;
+}
+a:active {
+  color: #000;
+}
+em:link,viaited {
+	color: #f3c;
+}
+em:hover{
+	color: #f00;
+}
+em:active{
+    color: #000;	
+}
