@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(http://img1.3lian.com/2015/a1/136/d/188.jpg) repeat scroll top left;
+	padding: 0;
+	margin: 0;	
+}
+#A{
+	max-width: 1200px;
+	min-width: 800px;
+	margin: auto;
+	}
+header{
+	margin: 2px 0;
+	height: 200px;
+	}
+footer{	
+	margin: 2px 0;
+	height: 200px;
+}
+
+p{
+	text-indent: 2em;
+}
+h1{
+	text-align: center;
+}
