@@ -27,3 +27,13 @@ p{
 h1{
 	text-align: center;
 }
+h2,li:link,viaited {
+  	text-decoration: none;
+  	color: #f3c;
+ }
+h2,li:hover {
+    color: #f00;
+}
+h2,li:active {
+  color: #000;
+}
