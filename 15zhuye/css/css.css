@@ -4,7 +4,8 @@
 	clear: both;
 }
 body{
-	background: url(../img/bg.jpeg) repeat scroll top left;
+	background: url(../img/bg.jpeg) center top fixed;
+	min-height: 1200px;
 }
 .wrapper{
 	max-width: 1200px;
