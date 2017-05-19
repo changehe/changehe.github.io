@@ -1,0 +1,50 @@
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+body{
+	background: url(../img/bg.jpeg) repeat scroll top left;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: auto;
+}
+.logo img{
+	width: 80px;
+	height: auto;
+}
+header{
+	position: relative;
+	margin: 50px 0;
+}
+h2,p{
+	color: rgb(255,255,255);
+}
+nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 5px;
+	border: 1px solid rgba(255,255,255,0);
+	transition: all 0.5s; 
+}
+nav ul li:hover{
+    border: 1px solid rgba(255,255,255,1);
+}
+nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+
