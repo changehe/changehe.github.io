@@ -1,0 +1,27 @@
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fdfcf8;
+	/*border: 1px solid transparent;*/
+	display: block;
+}
+div {
+	display: block;
+}
+.wrapper {
+	margin: auto;
+	padding: 0px;
+	/* border: 1px solid black; */
+	width: 80%;
+	text-align: left;
+	background-color: #fdfcf8;
+}

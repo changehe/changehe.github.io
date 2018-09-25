@@ -1,0 +1,232 @@
+.main {
+	width: 1204px;
+	display: inline-block;
+	/* border: 1px solid black; */
+}
+/* 顶部导航栏 */
+/* .nav_top {
+	height: 48px;
+} */
+.nav_div {
+	width: 172px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	float: left;
+	background-color:gainsboro ;
+}
+.nav_div:hover {
+	background:  #444;
+	cursor: pointer;
+	color: white;
+}
+
+/* 左边导航栏 */
+.nav_left {
+	width: 180px;
+	float: left;
+	border: 1px solid gainsboro;
+}
+.nav_left h2 {
+	margin: 10px 0px 5px 10px;
+	padding: 5px;
+	font-size: 14px;
+	}
+.nav_left li {
+	margin-left: 5px;
+	height: 30px;
+	background-color: transparent;
+}
+.nav_left li:hover {
+	cursor: pointer;
+	margin-left: 0px;
+	background-color: #DCDCDC;
+}
+.nav_left ul a {	
+	display: block;
+	font-size: 12px;
+	padding: 5px 0 5px 15px;
+	text-decoration: none;
+	background-color: transparent;
+}
+.nav_left li>a:link , .nav_left li>a:visited{
+	color: black;
+	background: transparent;
+}
+.nav_left ul a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #DCDCDC;
+}
+.link_about{
+	margin-top: 20px;
+}
+.link_help {
+	margin-top: 5px;
+}
+.link_about a , .link_help a {
+	display: inline;
+	text-decoration: none;
+	color: #0479A7;
+}
+.link_about a:hover , .link_help a:hover{
+	text-decoration: underline;
+}
+
+/* 中间导航栏 */
+.middle {
+	padding-top: 30px;
+	width: 840px;
+	height: 1954.8px;
+	float: left;
+	border-top: 1px solid gainsboro;
+}
+.con_1 {
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	border-bottom: 1px solid gainsboro;
+}
+.con_1 > h2 {
+	margin-top: 35px;
+	}
+.con_1 > p {
+	font-size: 18px;
+	margin-top: 12px;
+	line-height: 30px;
+}
+.con_1 #p3 {
+	font-weight: 800;
+}
+
+.con {
+	margin: 0px auto;
+	width: 800px;
+	border-bottom: 1px solid #aaa;
+}
+.con_2 , .con_3 ,.con_4 ,.con_5 ,.con_6 ,.con_7 {
+	margin: 40px 0px;
+	
+}
+#txt {
+	margin-top: -100px;
+	padding-left:110px ;
+}
+.con_2_img {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon2.png) no-repeat center ;
+}
+.con_3_img {
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon3.png) no-repeat center;
+}
+.con_4_img{
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon4.png) no-repeat center;
+}
+.con_5_img{
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon5.png) no-repeat center;
+}
+.con_6_img{
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon6.png) no-repeat center; 
+}
+.con_7_img{
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon7.png) no-repeat center;
+}
+.con_8 {
+	margin-bottom: 0px;
+	}
+	.con_8_img1 {
+		margin-left: 130px;
+	}
+	.con_8_img1 #img_c8 {
+		margin: 0px 0px -100px -120px;
+	}
+	.con_8_img1 a{
+		margin-right: 30px;
+		text-decoration: underline;
+	}
+	.con_8_img2 #i1{
+		background: transparent url(../img/icon9.png) top left no-repeat;
+	}
+
+	.con_8_img2 #i2{
+		background: transparent url(../img/icon10.png) top left no-repeat;
+	}
+	.con_8_img2 #i1 , .con_8_img2 #i2{
+		margin-left:45px;
+		margin-top:50px;
+		width:297px;
+		float:left;
+		border:0;
+	}
+	.middle h3 {
+		margin-right: 90px;
+		margin-top:20px;
+		margin-left:80px;
+		font-size:14px;
+		color: #DCDCDC;
+	}
+	.con_8_img2 #i1 a {
+		margin-top: 12px;
+		margin-left: 53px;
+		line-height: 50px;
+		color: #900b09;
+	}
+	.con_8_img2 #i2 p{
+		font-size: 14px;
+		margin-top: -4px;
+		margin-right: 87px;
+		margin-left: 63px;
+		line-height: 50px;
+	}
+
+/* 右边导航栏 */
+.nav_right {
+	width: 180px;
+	height: 1954.8px;
+	float: left;
+	border: 1px solid gainsboro;
+}
+.nav_right h2{
+	margin: 10px 0px 5px 10px;
+	padding: 5px;
+	font-size: 14px;
+}
+.nav_right li {
+	margin-left: 5px;
+	height: 30px;
+	background-color: transparent;
+}
+.nav_right li:hover {
+	cursor: pointer;
+	margin-left: 0px;
+	background-color: #BD2D30;
+}
+.nav_right a {
+	display: block;
+	font-size: 12px;
+	padding: 5px 0 5px 15px;
+	text-decoration: none;
+	border-bottom: 0px solid #ddd;
+	background-color: transparent;
+}
+.nav_right a:link , .nav_right a:visited{
+	color: #900b09;
+	background: transparent;
+}
+.nav_right a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #BD2D30;
+}

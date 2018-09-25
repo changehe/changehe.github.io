@@ -1,0 +1,21 @@
+.footer {
+	clear: both;
+	margin: -35px 0px 0px 0px;
+	width: 1204px;
+	line-height: 24px;
+	border-top: 1px solid gainsboro;
+	background: #fdfcf8 url(../img/footer.png) top left repeat-x;
+}
+p.a {
+	font-size: 12px;
+	color:  #777777;
+	text-align: center;
+	background: transparent url(../img/alert.png) no-repeat;
+	background-position: 235px 2px;
+}
+p.b {
+	margin: 30px 0 30px 0;
+	font-size: 14px;
+	text-align: center;
+	color: #777777;
+}
